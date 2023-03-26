@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#Header {
+  background-color: gray;
+  width: 50%;
+  float: left;
+  min-height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#nav {
+  background-color: aqua;
+  width: 50%;
+  float: left;
+  min-height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#cont {
+  background-color: rgb(97, 185, 8);
+  width: 100%;
+  min-height: 350px;
+  text-align: center;
+  line-height: 200px;
+}
+#main {
+  min-height: 250px;
+}
+#main .box {
+  background-color: blueviolet;
+  min-height: 250px;
+  float: left;
+  width: 335px;
+  line-height: 200px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#main .box:nth-child(2) {
+  margin-left: 1px;
+  margin-right: 0.5px;
+}
+#main .box:nth-child(3) {
+  margin-left: 0.5px;
+  margin-right: 1px;
+}
+#main .box:nth-child(4) {
+  margin-left: 0.5px;
+  margin-right: 1px;
+}
+#main .box:nth-child(5) {
+  margin-left: 0.5px;
+  margin-right: 1px;
+}
+#main .box:nth-child(6) {
+  margin-left: 0.5px;
+  margin-right: 1px;
+}
+#main .box:nth-child(7) {
+  margin-left: 0.5px;
+  margin-right: 1px;
+}
+#footer {
+  background-color: rosybrown;
+  min-height: 200px;
+  width: 100%;
+  line-height: 400px;
+  text-align: center;
+}
