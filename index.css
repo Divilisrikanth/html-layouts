@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*margin bottom should be applied to parent container*/
+.flex-container {
+  display: flex;
+  /* flex-direction: column;*/
+  /*flex-direction: column-reverse;*/
+  /*flex-direction: calc();*/
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  background-color: dodgerblue;
+  margin-bottom: 20px;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/*justify content should be applied to parent container */
+.flex-container2 {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.flex-container3 {
+  display: flex;
+  background-color: gold;
+  justify-content: flex-start;
+}
+.flex-container3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
